@@ -1,0 +1,52 @@
+.custom-bg-color {
+    background-color: #3F5A9F;
+}
+
+.custom-bg-color-2 {
+    background-color: #BBC8F4;
+}
+
+.custom-btn-color {
+    background-color: #6E92F0;
+    border-color: #6E92F0;
+    color: #FFFFFF;
+    white-space: nowrap;
+}
+
+.custom-btn-color:hover {
+    border-color: #6E92F0;
+    color: #6E92F0;
+}
+
+.custom-text-color {
+    color: #FFFFFF;
+}
+
+.custom-text-color .navbar-nav .nav-link,
+.custom-text-color .navbar-brand,
+.custom-text-color .navbar-toggler-icon,
+.custom-text-color .dropdown-item {
+    color: inherit;
+}
+
+.first-page {
+    height: 90vh;
+}
+
+.icon-color {
+    color: #FFFFFF;
+}
+
+.icon-color:hover {
+    color: #6E92F0;
+}
+
+.card-grow {
+    transition: transform 0.3s ease;
+    width: 18rem;
+    height: 28rem;
+}
+
+.card-grow:hover {
+    transform: scale(1.05);
+}
